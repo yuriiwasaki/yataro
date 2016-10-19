@@ -1,0 +1,25 @@
+/* 属性セレクタ */
+/* a[title]{ color: skyblue; } */
+/* a[href="http://google.com"]{color:orange;}
+a[class="search"]{color:violet;} */
+/*
+セレクタ
+擬似クラス
+*/
+/*ul li:first-child {color: skyblue;}
+
+a:link {color: violet;}
+a:visited {color: orange;}
+a:hover {color: pink;}
+a:active {color: red;}
+input:focus {background-color: skyblue;}*/
+
+/*
+セレクタ
+擬似要素
+*/
+/* 行全体 p {color: skyblue;}
+最初だけがいいp:first-line {color: skyblue;}
+最初の一文字p:first-letter{color: skyblue;} */
+p:before { content: "--> ";}
+p:after { content: "<-- ";}

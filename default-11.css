@@ -1,0 +1,29 @@
+ul{ /* list-style: inside decimal; */
+/* list-style: outside lower-alpha;*/
+list-style: url("smile.png");}
+li{color: #FFFFFF;}
+
+.help{ cursor: help; color: #FF33FF;}
+.dragme{ cursor: move; color: #FFFF00;}
+.clickme{ cursor: pointer; color: #FFCCFF;}
+.smile{ cursor: url("smile.png"),auto; color: #00FF00;}
+
+/* background */
+
+h1{ color: yellow;}
+
+h2{ color: yellow;}
+
+body{
+    color: #FF9900;
+    background-color: silver;
+    background-image: url(bg.png); /* defaultで敷き詰められていく */
+    /* background-repeat: no-repeat; 画像は一回だけの表示になる */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: top left; */
+    /* scrollした時にbackgroundをどう表示するか */
+    /* background-attachment: scroll;  */
+    /* background-attachment: fixed; 一気に指定可能 */
+    background: url(bg.png) top left fixed;
+}

@@ -1,0 +1,15 @@
+/*
+値
+長さ
+- px,em,%,rem
+*/
+
+html {
+    font-size: 32px;
+}
+h1 {
+    font-size: 2rem;
+}
+span {
+    font-size: 0.5rem;
+}

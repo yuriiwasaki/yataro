@@ -1,0 +1,35 @@
+
+/*
+margin 間隔
+
+margin-top: 10px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+
+padding
+padding-top: 10px;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+
+padding:
+all
+ひとつめ top/bottom  ふたつめ right/left
+一気に指定できる。値が何個なのかによって意味が違う。
+1 top 2 right/left 3 bottom
+4 top right bottom left
+
+*/
+
+body { margin: 0;}
+
+div#box1 {
+background-color: silver;
+margin: 10px 20px 30px;
+}
+
+div#box2 {
+background-color: orange;
+margin: 20px;
+}
