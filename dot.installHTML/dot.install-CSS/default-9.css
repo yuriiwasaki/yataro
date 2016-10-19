@@ -1,0 +1,26 @@
+/*
+ボックスモデル
+*/
+
+body,html{ height: 100%; }
+div{
+    background: silver;
+    width: 50%;
+    /* width: 200px; */
+    /* height: 100px; */
+    height: 50%;
+}
+
+/*
+border
+
+border-color:
+border-width:
+border-style: solid /dotted /dashed /double /inset /outset
+*/
+
+div{
+    background: silver;
+    width: 200px;
+    height: 100px;
+}

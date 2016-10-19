@@ -1,0 +1,18 @@
+/*
+list
+- list-style-type:
+disc:黒丸
+circle:白丸
+square：四角
+decimal：連番
+lower-alpha：アルファベットにしてくれる
+
+- list-style-image:
+- list-style-position:
+*/
+
+ul{
+ /* list-style: inside decimal; */
+ /* list-style: outside lower-alpha; */
+ list-style: url('smile.png');
+}

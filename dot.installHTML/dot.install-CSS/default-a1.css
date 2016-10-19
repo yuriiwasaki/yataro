@@ -1,0 +1,43 @@
+/*
+色
+- rgba
+    red
+    green
+    blue
+    Alpha (透明度 0~1)
+- hsl / hsla
+     hue(色相) 0~360
+     satulation(鮮やかさ 彩度) 0~100%
+     lightness（明るさ） 0-100%
+     Alpha (透明度)
+*/
+
+div{
+    width: 100px;
+    height: 50px;
+}
+
+#box1{
+    background: rgb(255, 0, 0);
+}
+
+#box2{
+    background: rgba(255, 100, 100,0.5);  /*.2 は0.2の略*/
+}
+
+#box3{
+    background: hsla(210, 100%, 50%, 0.7);
+}
+
+#box4{
+    background: hsla(210, 100%, 20%, 0.7);
+}
+
+body{
+    background: skyblue;
+}
+
+img{
+    border: solid blue;
+    opacity: 0.8;
+}

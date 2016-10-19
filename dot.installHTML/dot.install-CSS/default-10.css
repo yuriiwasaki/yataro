@@ -1,0 +1,20 @@
+/*
+text
+- color: orange; いろ
+- font-size: 14px; フォントの大きさ
+- font-family: Arial, Helvetica; フォントの書体
+- font-weight: bold/normal フォントの太さ
+- text-align: right/center/left; フォントの位置
+- text-decoration: underline/line-through/none 文字装飾 下線を引く
+*/
+
+p {
+  color: silver;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*line-through 文字の中心を貫く線*/

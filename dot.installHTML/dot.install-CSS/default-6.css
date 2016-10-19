@@ -1,0 +1,14 @@
+/* border
+border-color:
+border-width:
+border-style:solid/dotted/dashed
+/double/inset/outset
+*/
+/* div{
+border-color: orange;
+border-with: 4px;
+border-style: dotted;
+} */
+
+/* div{border: orange 4px dotted;} */
+div{border-top: orange 4px dotted;}
